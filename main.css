@@ -11,9 +11,8 @@ body {
   font-family: 'Roboto', 'Verdana', sans-serif;
   font-weight: 300;
   color: #868E85;
-  font-size: 1.1em;
   margin: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 /* BODY */
@@ -114,7 +113,6 @@ img.portrait {
 .nav-link a.active {
   color: #D81E5B;
 }
-
 
 .media-links {
   display: inline-block;
