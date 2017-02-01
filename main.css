@@ -56,8 +56,10 @@ img.portrait {
 .main-body {
   text-align: center;
   width: 70%;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.1em;
 }
 
 /* FOOTER */
@@ -71,7 +73,6 @@ img.portrait {
   height: 80px;
   bottom: 0;
   background-color: #BFC0BE;
-  font-
 }
 
 .updated {
