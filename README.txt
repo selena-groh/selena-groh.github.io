@@ -19,13 +19,6 @@ SUMMARY:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMPLEMENTATION BENEFITS AND LIMITATIONS:
 
-    MOBILE:
-
-        Currently, the navigation links in the footer do not fit on one
-        line in mobile; home and resume overflow above and below the
-        footer. In the fututre, it would be beneficial to implement
-        a menu containing the navigation links on mobile.
-    
     INDEX.HTML:
       
         Currently, the home page contains little information besides a
