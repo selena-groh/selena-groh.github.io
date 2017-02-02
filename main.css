@@ -100,6 +100,8 @@ img.portrait {
   display: inline-block;
   margin-left: 3%;
   margin-right: 3%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .nav-link a {
