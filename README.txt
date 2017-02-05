@@ -20,9 +20,12 @@ SUMMARY:
 IMPLEMENTATION BENEFITS AND LIMITATIONS:
 
     HEADER:
-        It is inconvenient to scroll to the bottom of the page to find the
-        navigation links. Future development could explore a fixed footer
-        or adding a header.
+    
+        Currently, the footer is fixed at the bottom of the page. It might
+        be more aesthetically pleasing to have a header rather than a
+        footer, as the footer seems slightly out of place and a
+        non-fixed header would take up less space when scrolling down
+        the page.
     
     INDEX.HTML:
       
