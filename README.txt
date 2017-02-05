@@ -19,6 +19,11 @@ SUMMARY:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMPLEMENTATION BENEFITS AND LIMITATIONS:
 
+    HEADER:
+        It is inconvenient to scroll to the bottom of the page to find the
+        navigation links. Future development could explore a fixed footer
+        or adding a header.
+    
     INDEX.HTML:
       
         Currently, the home page contains little information besides a
