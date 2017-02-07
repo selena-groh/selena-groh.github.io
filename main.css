@@ -13,6 +13,7 @@ body {
   color: #868E85;
   margin: 0px;
   margin-bottom: 100px;
+  background-image: url("ice-background.jpg");
 }
 
 /* BODY */
@@ -95,7 +96,7 @@ img.portrait {
   width: 26%;
   font-size: 0.8em;
   padding-left: 2%;
-  padding-right: 2;
+  padding-right: 2%;
   letter-spacing: 0.7px;
 }
 
