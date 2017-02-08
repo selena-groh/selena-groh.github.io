@@ -4,7 +4,7 @@ README for COMP 20, Assignment 1
 Assignment 1 - Your Portfolio
 
     modified by: Selena Groh
-    modified on: February 2, 2017
+    modified on: February 7, 2017
           class: COMP 20
      assignment: 1
         
@@ -41,6 +41,12 @@ IMPLEMENTATION BENEFITS AND LIMITATIONS:
         other features might be applicable to or interesting for an
         online portfolio.
         
+    DESIGN:
+        
+        Future development might explore adding more sections on each
+        page which are visually distinct in order to break up the 
+        white background.
+        
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 TIME DEDICATED:
         
@@ -49,4 +55,5 @@ TIME DEDICATED:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ACKNOWLEDGEMENTS:
 
-    Credit and thanks to Ming Chow, the instructor of Tufts COMP 20.
+    Credit and thanks to the instructors and teaching assistants of
+    Tufts COMP 20.
