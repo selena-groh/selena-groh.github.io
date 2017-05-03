@@ -8,11 +8,18 @@
 	"buffers":
 	[
 		{
-			"file": "bio.html",
+			"file": "/C/Users/Selena/OneDrive/Documents/Sophomore Year/SOPH.2.COMP20/Examples/messages.html",
 			"settings":
 			{
-				"buffer_size": 528,
-				"encoding": "UTF-8",
+				"buffer_size": 1042,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Selena/OneDrive/Documents/Avian/Avian/index.html",
+			"settings":
+			{
+				"buffer_size": 4293,
 				"line_ending": "Windows"
 			}
 		},
@@ -20,17 +27,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 289,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resume.html",
-			"settings":
-			{
-				"buffer_size": 2786,
-				"encoding": "UTF-8",
+				"buffer_size": 1318,
 				"line_ending": "Windows"
 			}
 		}
@@ -65,14 +62,11 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/Selena/OneDrive/Documents/Sophomore Year/SOPH.2.COMP20/selena-groh"
-	],
 	"file_history":
 	[
-		"/C/Users/Selena/OneDrive/Documents/Sophomore Year/SOPH.2.COMP20/selena-groh/bio.html",
 		"/C/Users/Selena/OneDrive/Documents/Sophomore Year/SOPH.2.COMP20/selena-groh/resume.html",
+		"/C/Users/Selena/OneDrive/Documents/Sophomore Year/SOPH.2.COMP20/selena-groh/index.html",
+		"/C/Users/Selena/OneDrive/Documents/Sophomore Year/SOPH.2.COMP20/selena-groh/bio.html",
 		"/C/Users/Selena/OneDrive/Documents/Avian/Avian/intersystems.c",
 		"/C/Users/Selena/OneDrive/Documents/Avian/Avian/about.html",
 		"/C/Users/Selena/OneDrive/Documents/Avian/Avian/members.html"
@@ -110,52 +104,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "bio.html",
+					"file": "/C/Users/Selena/OneDrive/Documents/Sophomore Year/SOPH.2.COMP20/Examples/messages.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 528,
+						"buffer_size": 1042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 289,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								188,
-								127
+								720,
+								720
 							]
 						],
 						"settings":
@@ -170,20 +136,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "resume.html",
+					"buffer": 1,
+					"file": "/C/Users/Selena/OneDrive/Documents/Avian/Avian/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2786,
+						"buffer_size": 4293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								656,
-								656
+								0,
+								4293
 							]
 						],
 						"settings":
@@ -191,10 +157,38 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 165.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
