@@ -2,12 +2,73 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// $text-color: red;
+// $brand-color: #F15025;
+
+// $brand-color: #7F468E;
+$brand-color: #713182;
+$secondary-color: #713182;
 @import "minima";
 
-.site-title {
+
+.site-title, .site-title:visited {
   &,
   &:hover,
   &:focus {
     text-decoration: none;
+    color: white;
   }
+}
+
+.site-nav .page-link {
+  color: #C6ACCD;
+  display: inline-block;
+  padding-bottom: 10px;
+
+  &:hover,
+  &:focus {
+    color: white;
+    text-decoration: none;
+  }
+
+  &.active {
+    border-bottom: 2px white solid;
+    color: white;
+  }
+
+}
+
+.site-header {
+  background: $secondary-color;
+  color: white;
+  border-top: none;
+}
+
+/**
+ * Links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $brand-color;
+  }
+
+  &:hover {
+    color: darken($brand-color, 15%);
+    text-decoration: none;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: none;
+    }
+  }
+}
+
+.svg-icon {
+  fill: #{$brand-color};
 }
