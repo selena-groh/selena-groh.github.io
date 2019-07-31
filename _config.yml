@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Selena Groh
-nav_title: Selena Groh | Software Developer
+nav_title: Selena Groh
 author: Selena Groh
 email: selena.groh@gmail.com
 phone: 224.388.9406
@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  selena-groh
 linkedin_username: selena-groh
-twitter_username: SelenaShrink
+twitter_username: selena_armena
 
 show_rss: false
 

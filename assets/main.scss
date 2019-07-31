@@ -7,11 +7,26 @@
 
 // $brand-color: #7F468E;
 $brand-color: #713182;
-$secondary-color: #713182;
+// $secondary-color: #713182;
+$secondary-color: #631D76;
+// #3A5528
 @import "minima";
 
+h1, h2 {
+  font-family: 'Playfair Display';
+}
+
+.site-header {
+  background: $secondary-color;
+  border-top: none;
+  color: white;
+}
 
 .site-title, .site-title:visited {
+  font-family: 'Playfair Display', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
   &,
   &:hover,
   &:focus {
@@ -60,12 +75,6 @@ $secondary-color: #713182;
   }
 }
 
-.site-header {
-  background: $secondary-color;
-  color: white;
-  border-top: none;
-}
-
 /**
  * Links
  */
@@ -93,4 +102,30 @@ a {
 
 .svg-icon {
   fill: #{$brand-color};
+}
+
+.photo-gallery {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
+
+  .card {
+    margin: 5px;
+
+    &.vertical {
+      flex: 0 0 31%;
+    }
+
+    &.horizontal {
+      // flex: 0 0 47%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
 }
