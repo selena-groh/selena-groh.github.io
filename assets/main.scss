@@ -11,15 +11,46 @@ $brand-color: #713182;
 $secondary-color: #631D76;
 // #3A5528
 @import "minima";
+@import "simple-grid";
+
+$grey-color-medium: lighten($grey-color, 20%);
 
 h1, h2 {
   font-family: 'Playfair Display';
 }
 
+/**
+ * Links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:visited {
+    color: $brand-color;
+    transition: color 0.2s;
+  }
+
+  &:hover {
+    color: darken($brand-color, 15%);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: none;
+    }
+  }
+}
+
 .site-header {
   background: $secondary-color;
   border-top: none;
-  color: white;
+  color: $background-color;
 }
 
 .site-title, .site-title:visited {
@@ -31,13 +62,15 @@ h1, h2 {
   &:hover,
   &:focus {
     text-decoration: none;
-    color: white;
+    color: $background-color;
   }
 }
 
 .site-nav {
 
   @include media-query($on-palm) {
+    z-index: 99;
+
     .menu-icon > svg {
       fill: $secondary-color;
     }
@@ -47,16 +80,18 @@ h1, h2 {
     color: #C6ACCD;
     display: inline-block;
     padding-bottom: 10px;
+    transition: color 0.2s;
 
     &:hover,
     &:focus {
-      color: white;
+      color: $background-color;
       text-decoration: none;
+      transition: color 0.2s;
     }
 
     &.active {
-      border-bottom: 2px white solid;
-      color: white;
+      border-bottom: 2px $background-color solid;
+      color: $background-color;
     }
 
     @include media-query($on-palm) {
@@ -74,37 +109,8 @@ h1, h2 {
       &.active {
         background: $secondary-color;
         border-bottom: none;
-        color: white;
+        color: $background-color;
       }
-
-      .menu-icon > svg {
-        fill: $secondary-color;
-      }
-    }
-  }
-}
-
-/**
- * Links
- */
-a {
-  color: $brand-color;
-  text-decoration: none;
-
-  &:visited {
-    color: $brand-color;
-  }
-
-  &:hover {
-    color: darken($brand-color, 15%);
-    text-decoration: none;
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: none;
     }
   }
 }
@@ -113,28 +119,49 @@ a {
   fill: #{$brand-color};
 }
 
-.photo-gallery {
-  list-style: none;
-  margin-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: stretch;
-  align-items: stretch;
+img.portrait {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
 
-  .card {
-    margin: 5px;
+.row .card {
+  border-radius: 5px;
+  box-shadow: 2px 2px $grey-color-light;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
 
-    &.vertical {
-      flex: 0 0 31%;
-    }
-
-    &.horizontal {
-      // flex: 0 0 47%;
-    }
-
-    img {
-      max-width: 100%;
-    }
+  &:hover {
+    box-shadow: 2px 2px $grey-color-medium;
+    transition: box-shadow 0.2s;
   }
 }
+
+
+// .photo-gallery {
+//   list-style: none;
+//   margin-left: 0;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   align-content: stretch;
+//   align-items: stretch;
+
+//   .card {
+//     margin: 5px;
+
+//     &.vertical {
+//       flex: 0 0 31%;
+//     }
+
+//     &.horizontal {
+//       // flex: 0 0 47%;
+//     }
+
+//     img {
+//       max-width: 100%;
+//     }
+//   }
+// }
