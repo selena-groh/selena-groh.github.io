@@ -36,6 +36,28 @@ $secondary-color: #713182;
     color: white;
   }
 
+  @include media-query($on-palm) {
+    &:hover,
+    &:focus {
+      color: $secondary-color;
+      text-decoration: none;
+    }
+
+    &.active {
+      border-bottom: 2px $secondary-color solid;
+      color: $brand-color;
+    }
+
+    .menu-icon > svg {
+      fill: $secondary-color;
+    }
+  }
+}
+
+@include media-query($on-palm) {
+  .site-nav .menu-icon > svg {
+      fill: $secondary-color;
+  }
 }
 
 .site-header {
