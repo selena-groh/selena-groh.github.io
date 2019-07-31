@@ -21,11 +21,16 @@ phone: 224.388.9406
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  selena-groh
+github_username:   selena-groh
 linkedin_username: selena-groh
-twitter_username: selena_armena
+twitter_username:  selena_armena
 
 show_rss: false
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 # Build settings
 markdown: kramdown

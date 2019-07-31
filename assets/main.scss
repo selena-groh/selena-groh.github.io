@@ -35,43 +35,52 @@ h1, h2 {
   }
 }
 
-.site-nav .page-link {
-  color: #C6ACCD;
-  display: inline-block;
-  padding-bottom: 10px;
-
-  &:hover,
-  &:focus {
-    color: white;
-    text-decoration: none;
-  }
-
-  &.active {
-    border-bottom: 2px white solid;
-    color: white;
-  }
+.site-nav {
 
   @include media-query($on-palm) {
-    &:hover,
-    &:focus {
-      color: $secondary-color;
-      text-decoration: none;
-    }
-
-    &.active {
-      border-bottom: 2px $secondary-color solid;
-      color: $brand-color;
-    }
-
     .menu-icon > svg {
       fill: $secondary-color;
     }
   }
-}
 
-@include media-query($on-palm) {
-  .site-nav .menu-icon > svg {
-      fill: $secondary-color;
+  .page-link {
+    color: #C6ACCD;
+    display: inline-block;
+    padding-bottom: 10px;
+
+    &:hover,
+    &:focus {
+      color: white;
+      text-decoration: none;
+    }
+
+    &.active {
+      border-bottom: 2px white solid;
+      color: white;
+    }
+
+    @include media-query($on-palm) {
+      display: block;
+      margin-left: 0px;
+      min-width: 100px;
+      padding: 10px;
+
+      &:hover,
+      &:focus {
+        color: $secondary-color;
+        text-decoration: none;
+      }
+
+      &.active {
+        background: $secondary-color;
+        border-bottom: none;
+        color: white;
+      }
+
+      .menu-icon > svg {
+        fill: $secondary-color;
+      }
+    }
   }
 }
 

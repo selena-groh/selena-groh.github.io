@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
 
@@ -15,7 +12,3 @@ I specialize in web design and development, and I have experience in a variety o
 I also love the theatre, and I've been involved in stage management, set construction, and producing. I believe good design is essential, whether it's in posters or organizational spreadsheets.
 
 I spend my free time knitting, kayaking, solving crosswords, and drinking hot chocolate no matter the season.
-
-<!-- ![Selena Groh](/assets/img/DSC_3554.jpg) -->
-
-

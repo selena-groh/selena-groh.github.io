@@ -30,7 +30,6 @@ My primary tools are [Adobe Photoshop](https://www.adobe.com/products/photoshopf
 <ul class="photo-gallery">
   {% for image in page.images %}
     <li class="card {{ image.orientation }}"><img src="{{ image.image_path }}" alt="{{ image.title}}"/>
-      <!-- <p class="text">{{ image.title}}</p> -->
     </li>
   {% endfor %}
 </ul>
