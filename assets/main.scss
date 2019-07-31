@@ -128,10 +128,14 @@ img.portrait {
 .row .card {
   border-radius: 5px;
   box-shadow: 2px 2px $grey-color-light;
-  box-sizing: border-box;
+  // box-sizing: border-box;
   margin-bottom: 2rem;
-  padding: 1.5rem;
+  padding: 0.5rem;
   transition: box-shadow 0.2s;
+
+  @include media-query($breakpoint-small) {
+    box-sizing: border-box;
+  }
 
   &:hover {
     box-shadow: 2px 2px $grey-color-medium;
