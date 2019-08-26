@@ -7,4 +7,4 @@ order: 7
 technologies:
  - Java
 ---
-Designed, implemented, and published an Android application for stage managers (Java)
+An Android application for stage managers to create, save, and update stage blocking information for their actors. This information is anchored in show-specific scripts and ground plans, allowing directors, stage managers, and actors to review stage blocking by scene or line.

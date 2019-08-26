@@ -9,4 +9,4 @@ technologies:
  - HTML
  - CSS
 ---
-Designed and wrote a website as Publicity Chair of a new community-engagement and social organization (Avian) at Tufts University
+An informational website for Avian, a new community-engagement and social organization at Tufts University, created as Publicity Chair and Co-Founder.

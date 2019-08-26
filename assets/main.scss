@@ -10,6 +10,9 @@ $brand-color: #713182;
 // $secondary-color: #713182;
 $secondary-color: #631D76;
 // #3A5528
+
+$content-width:    1000px !default;
+
 @import "minima";
 @import "simple-grid";
 
@@ -125,24 +128,52 @@ img.portrait {
   max-width: 300px;
 }
 
-.row .card {
+.card {
   border-radius: 5px;
-  box-shadow: 2px 2px $grey-color-light;
   // box-sizing: border-box;
   margin-bottom: 2rem;
   padding: 0.5rem;
-  transition: box-shadow 0.2s;
 
   @include media-query($breakpoint-small) {
     box-sizing: border-box;
   }
 
-  &:hover {
-    box-shadow: 2px 2px $grey-color-medium;
+  &.card-border {
+    border: 2px solid $grey-color-light;
+    transition: border 0.2s;
+
+    // &:hover {
+    //   border: 2px solid $grey-color-medium;
+    //   transition: border 0.2s;
+    // }
+  }
+
+  &.card-box-shadow {
+    box-shadow: 2px 2px $grey-color-light;
     transition: box-shadow 0.2s;
+
+    &:hover {
+      box-shadow: 2px 2px $grey-color-medium;
+      transition: box-shadow 0.2s;
+    }
   }
 }
 
+.tags {
+  list-style: none;
+  margin-left: 0;
+
+  & > li {
+    // background: #9BC4CB;
+    // color: white;
+    color: $grey-color;
+    display: inline-block;
+    font-family: 'Source Code Pro';
+    font-size: 0.8rem;
+    // padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    margin-right: 1rem;
+  }
+}
 
 // .photo-gallery {
 //   list-style: none;

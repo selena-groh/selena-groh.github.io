@@ -46,7 +46,7 @@ I've designed a number of posters and graphics, primarily for Tufts University's
 <div>
   <div class="row row-center">
     {% for tool in page.tools %}
-      <a class="col-6-sm col-3-md col-2 center card" href="{{ tool.link }}">
+      <a class="col-6-sm col-3-md col-2 center card card-box-shadow" href="{{ tool.link }}">
         <p><img src="{{ tool.image_path }}" alt="{{ tool.title}}"/></p>
         <span>{{ tool.title }}</span>
       </a>

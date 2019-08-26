@@ -11,6 +11,4 @@ technologies:
  - HTML
  - CSS
 ---
-Designed and implemented a web variation of Connect Four
-
-Float Four is adds a new dimension of strategy to the classic game Connect Four. Players can, at their will, reverse the direction of gravity, causing the pieces to float to the top of the board and therefore altering the relationships between them.
+A web application for a new variation of Connect Four. Float Four is adds a new dimension of strategy to the classic game Connect Four. Players can, at their will, reverse the direction of gravity, causing the pieces to float to the top of the board and therefore altering the relationships between them.
