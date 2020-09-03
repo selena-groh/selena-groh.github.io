@@ -1,12 +1,12 @@
 ---
 name: Drought Visualization
-link: https://selena-groh.github.io/drought-map/
+link: https://www.selenagroh.com/drought-map/
 github: https://github.com/selena-groh/drought-map
 time: November 2018
 img: /assets/img/projects/drought_map.jpg
 order: 5
 technologies:
- - JavaScript d3 library
+ - D3.js
  - HTML
  - CSS
 ---

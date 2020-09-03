@@ -1,12 +1,12 @@
 ---
 name: Linked Hierarchy Visualization
-link: https://selena-groh.github.io/hierarchy-linking/
+link: https://www.selenagroh.com/hierarchy-linking/
 github: https://github.com/selena-groh/hierarchy-linking
 time: October 2018
 img: /assets/img/projects/hierarchy_linking.jpg
 order: 6
 technologies:
- - JavaScript d3 library
+ - D3.js
  - HTML
  - CSS
 ---

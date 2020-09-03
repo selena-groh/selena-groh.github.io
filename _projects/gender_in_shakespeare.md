@@ -1,12 +1,12 @@
 ---
 name: Gender in Shakespeare
-link: https://selena-groh.github.io/gender-in-shakespeare/
+link: https://www.selenagroh.com/gender-in-shakespeare/
 github: https://github.com/selena-groh/gender-in-shakespeare
 time: November - December 2018
 img: /assets/img/projects/gender_in_shakespeare.jpg
-order: 2
+order: 4
 technologies:
- - JavaScript d3 library
+ - D3.js
  - HTML
  - CSS
 ---

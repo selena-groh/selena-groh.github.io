@@ -4,7 +4,7 @@ link: https://float-four.herokuapp.com
 github: https://github.com/selena-groh/float-four
 time: February - May 2017
 img: /assets/img/projects/float_four.jpg
-order: 4
+order: 8
 technologies:
  - JavaScript
  - Node.js

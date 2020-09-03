@@ -4,7 +4,7 @@ link: https://tufts-avian.github.io/
 github: https://github.com/tufts-avian/tufts-avian.github.io
 time: January - February 2017
 img: /assets/img/projects/avian.png
-order: 8
+order: 9
 technologies:
  - HTML
  - CSS
